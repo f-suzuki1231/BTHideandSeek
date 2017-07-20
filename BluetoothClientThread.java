@@ -45,7 +45,7 @@ public class BluetoothClientThread extends Thread {
 
     public void run(){
         //接続要求を出す前に、検索処理を中断する。
-        
+
         if(myClientAdapter.isDiscovering()){
             myClientAdapter.cancelDiscovery();
         }

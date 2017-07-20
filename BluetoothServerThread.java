@@ -70,6 +70,7 @@ public class BluetoothServerThread extends Thread {
                 break;
             }
         }
+
     }
 
     public void cancel() {
