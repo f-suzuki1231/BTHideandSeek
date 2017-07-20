@@ -48,7 +48,6 @@ public class ReadWriteModel extends Thread {
         }
     }
 
-
     public void run() {
 
         byte[] buf = new byte[1024];

@@ -49,7 +49,6 @@ public class BluetoothClientThread extends Thread {
         if(myClientAdapter.isDiscovering()){
             myClientAdapter.cancelDiscovery();
         }
-
         try{
             //サーバー側に接続要求
             clientSocket.connect();
